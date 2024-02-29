@@ -10,7 +10,7 @@ um e-mail com as informações do aluno inseridas para os responsáveis
 do cadastro que irão realizar o cadastro no sistema de catracas 
 a partir dos dados recebidos.
 
-![Image]("image.png")
+![Image](image.png)
 
 # Funcionamento
 A aplicação é feita apenas com HTML, CSS e JavaScript, e utilizando a action, do forumário, do FormSubmit que disponibiliza o serviço, de método POST, de receber os dados e enviar ao email ou emails informados na action.
