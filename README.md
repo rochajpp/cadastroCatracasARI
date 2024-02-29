@@ -13,7 +13,7 @@ a partir dos dados recebidos.
 ![Image](image.png)
 
 # Funcionamento
-A aplicação é feita apenas com HTML, CSS e JavaScript, e utilizando a action, do forumário, do FormSubmit que disponibiliza o serviço, de método POST, de receber os dados e enviar ao email ou emails informados na action.
+A aplicação é feita apenas com HTML, CSS e JavaScript, e utilizando a action, do formulário, do FormSubmit que disponibiliza o serviço, de método POST, de receber os dados e enviar ao email ou emails informados na action.
 
 # Licença
-Copyright (c) 2023 Faculdade Ari de Sá
+Copyright (c) 2024 Faculdade Ari de Sá
