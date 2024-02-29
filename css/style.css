@@ -111,6 +111,10 @@ form h1{
     color: #333
 }
 
+.input-area p{
+    color: rgb(98, 98, 98);
+}
+
 .input-area input:focus{
     border-color: var(--primary-color);
     outline: none;
@@ -122,45 +126,11 @@ button{
     bottom: 4%;
     left: 50%;
     transform: translate(-50%, 50%);
-
     border: none;
     border-radius: 0.2rem;
     color: white;
-    background-color: var(--primary-color);
-
-    cursor: pointer;
+    background-color: #1e73be9c;
     transition: 0.5s;
-}
-
-button:hover{
-    background-color: #1e73bec3;
-}
-
-
-.warning-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 1rem;
-    padding: 2rem 4rem;
-    backdrop-filter: blur(10px);
-    background-color: #feb6b6e7; 
-    color: #a94442; 
-    border: 1px solid #ebccd1; 
-
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
-    animation: 0.4s warning;
-    transition: 1s;
-}
-
-.warning-box a{
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    cursor: pointer;
 }
 
 

@@ -24,14 +24,17 @@
                 <h1>Preencha os campos!</h1>
                 <div class="input-area">
                     <label>Informe o RA do aluno:</label>
-                    <input type="number" name="Matrícula" placeholder="Digite o RA do aluno" required>
+                    <input oninput="checkRa()" id="ra" type="number" name="Matrícula" placeholder="Digite o RA do aluno" required>
+                    <p>Digite exatamente 7 números</p>
                 </div>
                 <div class="input-area">
                     <label>Informe o nome completo do aluno:</label>
                     <input type="text" name="Nome" placeholder="Digite o nome completo do aluno" required>
                 </div>
+                <input type="hidden" name="_cc" value="rochajp000@gmail.com">
                 <input type="hidden" name="_captcha" value="false">
-                <button>Enviar</button>
+                <input type="hidden" name="_subject" value="Solicitação de Cadastro para Catraca!">
+                <button disabled id="button">Enviar</button>
             </form>
         </div>
     </main> 
