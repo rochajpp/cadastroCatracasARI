@@ -18,6 +18,14 @@ function checkRa(){
         button.disabled = true;
         button.style.cursor = "default"
         button.style.backgroundColor = "#1e73be9c";
+
+        button.addEventListener("mouseover", () => {
+            button.style.backgroundColor = "#1e73be9c";
+        })
+        button.addEventListener("mouseout", () => {
+            button.style.backgroundColor = "#1e73be9c";
+        })
+
     } else{
         button.disabled = false
         button.style.cursor = "pointer"
